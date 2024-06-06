@@ -170,13 +170,8 @@ const HomePage = () => {
         {testimonial.map((testimoni) => {
               return (
                 <SwiperSlide key={testimoni.id} className='shadow'> 
-                  <p className="desc">{testimoni.desc}</p>
-                  <div className="orang">
-                    <img src={testimoni.image} alt="" />
-                    <div>
-                      <h5 className='mb-1'>{testimoni.name}</h5>
-                      <p className='mb-0 fw-bold'>{testimoni.skill}</p>
-                    </div>
+                  <div className="video">
+                  <video src={testimoni.video} type="video/mp4" width={350} controls></video>
                   </div>
                 </SwiperSlide>
               )

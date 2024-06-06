@@ -214,7 +214,7 @@
 
 .homepage .gallery .swiper-slide {
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
   background: var(--primary-color);
 
   /* Center slide text vertically */
@@ -225,7 +225,7 @@
 
 .homepage .gallery .swiper-slide img {
   display: block;
-  width: 400px;
+  width: 80%;
   object-fit: cover;
 }
 
@@ -262,42 +262,6 @@
 
 .homepage .testimonial .swiper-slide:active {
   cursor: grabbing;
-}
-
-.homepage .testimonial .swiper-slide .desc {
-  color: var(--color--text);
-  font-weight: 500;
-  padding-inline: 2;
-  margin-bottom: 50px;
-}
-
-.homepage .testimonial .swiper-slide .orang {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  column-gap: 10px;
-}
-
-.homepage .testimonial .swiper-slide .orang h5,
-.homepage .testimonial .swiper-slide .orang p {
-  color: var(--color--text);
-}
-
-.homepage .testimonial .swiper-slide .orang h5 {
-  font-weight: 600;
-}
-
-.homepage .testimonial .swiper-slide .orang p {
-  opacity: 50%;
-}
-
-.homepage .testimonial .swiper-slide .orang img {
- width: 80px;
- border-radius: 100%;
- -webkit-border-radius: 100%;
- -moz-border-radius: 100%;
- -ms-border-radius: 100%;
- -o-border-radius: 100%;
 }
 
 /* Contac */
@@ -525,43 +489,13 @@
 
 .testi-page .testimonial .row:nth-child(1){
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
-.testi-page .testimonial .desc {
-  color: var(--color--text);
-  font-weight: 500;
-  padding-inline: 2;
-  margin-bottom: 50px;
-}
-
-.testi-page .testimonial .orang {
+.testi-page .testimonial .row:nth-child(2) .video{
   display: flex;
+  justify-content: center;
   align-items: center;
-  width: 100%;
-  column-gap: 10px;
-}
-
-.testi-page .testimonial .orang h5,
-.testi-page .testimonial .orang p {
-  color: var(--color--text);
-}
-
-.testi-page .testimonial .orang h5 {
-  font-weight: 600;
-}
-
-.testi-page .testimonial .orang p {
-  opacity: 50%;
-}
-
-.testi-page .testimonial .orang img {
- width: 80px;
- border-radius: 100%;
- -webkit-border-radius: 100%;
- -moz-border-radius: 100%;
- -ms-border-radius: 100%;
- -o-border-radius: 100%;
 }
 
 /*Gallery Temo*/

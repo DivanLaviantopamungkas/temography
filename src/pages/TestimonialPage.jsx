@@ -17,16 +17,11 @@ const TestimonialPage = () => {
               </Col>
             </Row>
             <Row className='row-cols-lg-3 row-cols-1'>
-            {testimonial.map((testi) => {
+            {testimonial.map((testimoni) => {
                 return(
-                  <Col key={testi.id} className='mb-5'>
-                   <p className="desc shadow-sm">{testi.desc}</p>
-                  <div className="orang">
-                    <img src={testi.image} alt="" />
-                    <div>
-                      <h5 className='mb-1'>{testi.name}</h5>
-                      <p className='mb-0 fw-bold'>{testi.skill}</p>
-                    </div>
+                  <Col  key={testimoni.id} className='mb-5'>
+                   <div className="video">
+                  <video src={testimoni.video} type="video/mp4" controls width="300"></video>
                   </div>
                    </Col>
                 )

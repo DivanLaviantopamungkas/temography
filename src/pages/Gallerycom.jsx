@@ -19,7 +19,7 @@ const Gallerycom = () => {
               return (
                 <Col key={gallery.id} className=' animate__animated 
                 animate__fadeInUp'>
-                  <img src={gallery.image} alt="" className='pb-2' />
+                  <img src={gallery.image} alt="" className='pb-2' width={400}/>
                 </Col>
               )
             })}

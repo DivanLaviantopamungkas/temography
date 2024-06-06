@@ -1,8 +1,15 @@
 import Money from "../assets/money.png";
 import Stars from "../assets/stars.png";
 import Like from "../assets/like.png";
-import Gallery1 from "../assets/g1.jpeg";
-import Galler2 from "../assets/g2.jpeg";
+import Gallery1 from "../assets/G1.JPG";
+import Gallery2 from "../assets/G2.JPG";
+import Gallery3 from "../assets/G3.JPG";
+import Gallery4 from "../assets/g4.JPG";
+import Gallery5 from "../assets/g5.JPG";
+import Gallery6 from "../assets/g6.JPG";
+import Gallery7 from "../assets/g7.JPG";
+import Gallery8 from "../assets/g8.JPG";
+import Gallery9 from "../assets/g9.JPG";
 // import KelasImage4 from "../assets/img/kelas/kelas-4.jpg";
 // import KelasImage5 from "../assets/img/kelas/kelas-5.jpg";
 // import KelasImage6 from "../assets/img/kelas/kelas-6.jpg";
@@ -10,9 +17,9 @@ import Galler2 from "../assets/g2.jpeg";
 // import KelasImage8 from "../assets/img/kelas/kelas-8.jpg";
 // import KelasImage9 from "../assets/img/kelas/kelas-9.jpg";
 
-import People1 from "../assets/people-1.jpg";
-import People2 from "../assets/people-2.jpg";
-import People3 from "../assets/people-3.jpg";
+import testi1 from "../assets/testi1.mp4";
+import testi2 from "../assets/testi2.mp4";
+import testi3 from "../assets/testi3.MOV";
 
 export const navLinks = [
   {
@@ -47,126 +54,6 @@ export const navLinks = [
   },
 ];
 
-// export const semuaKelas = [
-//   {
-//     id: 1,
-//     image: KelasImage1,
-//     star1: "fa-solid fa-star",
-//     star2: "fa-solid fa-star",
-//     star3: "fa-solid fa-star",
-//     star4: "fa-solid fa-star",
-//     star5: "fa-solid fa-star-half-stroke",
-//     title: "Character Illustration with Adobe Illustrator",
-//     price: "Rp. 300.000",
-//     buy: "Beli Kelas",
-//     delay: "1300",
-//   },
-//   {
-//     id: 2,
-//     image: KelasImage2,
-//     star1: "fa-solid fa-star",
-//     star2: "fa-solid fa-star",
-//     star3: "fa-solid fa-star",
-//     star4: "fa-solid fa-star",
-//     star5: "fa-solid fa-star",
-//     title: "UI UX Website Design for Beginner with Figma",
-//     price: "Rp. 340.000",
-//     buy: "Beli Kelas",
-//     delay: "1600",
-//   },
-//   {
-//     id: 3,
-//     image: KelasImage3,
-//     star1: "fa-solid fa-star",
-//     star2: "fa-solid fa-star",
-//     star3: "fa-solid fa-star",
-//     star4: "fa-solid fa-star",
-//     star5: "fa-solid fa-star",
-//     title: "Mastering Web Developer Bootstrap 5",
-//     price: "Rp. 280.000",
-//     buy: "Beli Kelas",
-//     delay: "1900",
-//   },
-//   {
-//     id: 4,
-//     image: KelasImage4,
-//     star1: "fa-solid fa-star",
-//     star2: "fa-solid fa-star",
-//     star3: "fa-solid fa-star",
-//     star4: "fa-solid fa-star",
-//     star5: "fa-solid fa-star",
-//     title: "Mastering Logo with Adobe Illustrator",
-//     price: "Rp. 420.000",
-//     buy: "Beli Kelas",
-//     delay: "",
-//   },
-//   {
-//     id: 5,
-//     image: KelasImage5,
-//     star1: "fa-solid fa-star",
-//     star2: "fa-solid fa-star",
-//     star3: "fa-solid fa-star",
-//     star4: "fa-solid fa-star",
-//     star5: "fa-solid fa-star",
-//     title: "3D Modelling for Beginner with 3D Blender",
-//     price: "Rp. 380.000",
-//     buy: "Beli Kelas",
-//     delay: "300",
-//   },
-//   {
-//     id: 6,
-//     image: KelasImage6,
-//     star1: "fa-solid fa-star",
-//     star2: "fa-solid fa-star",
-//     star3: "fa-solid fa-star",
-//     star4: "fa-solid fa-star",
-//     star5: "fa-solid fa-star",
-//     title: "Mastering Icon Design with Adobe Illustrator",
-//     price: "Rp. 300.000",
-//     buy: "Beli Kelas",
-//     delay: "600",
-//   },
-//   {
-//     id: 7,
-//     image: KelasImage7,
-//     star1: "fa-solid fa-star",
-//     star2: "fa-solid fa-star",
-//     star3: "fa-solid fa-star",
-//     star4: "fa-solid fa-star",
-//     star5: "fa-solid fa-star-half-stroke",
-//     title: "Design Vektor with Corel Draw CC for Beginner",
-//     price: "Rp. 340.000",
-//     buy: "Beli Kelas",
-//     delay: "",
-//   },
-//   {
-//     id: 8,
-//     image: KelasImage8,
-//     star1: "fa-solid fa-star",
-//     star2: "fa-solid fa-star",
-//     star3: "fa-solid fa-star",
-//     star4: "fa-solid fa-star",
-//     star5: "fa-solid fa-star-half-stroke",
-//     title: "UI UX Design with Adobe XD for Beginner",
-//     price: "Rp. 400.000",
-//     buy: "Beli Kelas",
-//     delay: "300",
-//   },
-//   {
-//     id: 9,
-//     image: KelasImage9,
-//     star1: "fa-solid fa-star",
-//     star2: "fa-solid fa-star",
-//     star3: "fa-solid fa-star",
-//     star4: "fa-solid fa-star",
-//     star5: "fa-solid fa-star-half-stroke",
-//     title: "Mastering Mobile Developer with Flutter",
-//     price: "Rp. 320.000",
-//     buy: "Beli Kelas",
-//     delay: "600",
-//   },
-// ];
-
  export const AboutNew = [
    {
      id: 1,
@@ -187,44 +74,6 @@ export const navLinks = [
      delay: "400",
    },
  ];
-
- export const testimonial = [
-   {
-     id: 1,
-     desc: "Sangat Membantu",
-     image: People1,
-     name: "Harry",
-     skill: "Wisatawan",
-   },
-   {
-    id: 2,
-    desc: "Rekomendasi temo buat foto foto acara saat pernikahan aku sangat suka",
-    image: People2,
-    name: "Yanto",
-    skill: "Pengantin",
-  },
-  {
-    id: 3,
-    desc: "Rekomended deh untuk foto wisuda dan lain lain",
-    image: People3,
-    name: "Rahman",
-    skill: "Mahasiswa",
-  },
-  {
-    id: 4,
-    desc: "Untuk kualitas foto dan hasilnya sangat memukau dan juga sangat sangat kereennn",
-    image: People1,
-    name: "Dewi",
-    skill: "Mahasiswa",
-  },
-  {
-    id: 5,
-    desc: "Foto Foto nya bagus banget aku suka ",
-    image: People2,
-    name: "Putra",
-    skill: "Mahasiswa",
-  },
-];
 
 // export const dataSwiper = [
 //   {
@@ -313,7 +162,7 @@ export const faq = [
 export const PriceNew = [
   {
     id: 1,
-    title: "Paket 1",
+    title: "Paket Temo",
     description1: "Unlimited Foto",
     description2: "1,5 Hour",
     description3: "60 Cetak Foto Hologram",
@@ -327,7 +176,7 @@ export const PriceNew = [
   },
   {
     id: 2,
-    title: "Paket 2",
+    title: "Paket Neto",
     description1: "Unlimited Foto",
     description2: "3 Hour",
     description3: "110 Cetak Foto Hologram",
@@ -363,12 +212,42 @@ export const Gallery = [
     },
     {
       id: 2,
-      image: Galler2,
+      image: Gallery2,
       delay: "200",
     },
     {
       id: 3,
-      image: Gallery1,
+      image: Gallery3,
+      delay: "200",
+    },
+    {
+      id: 4,
+      image: Gallery4,
+      delay: "",
+    },
+    {
+      id: 5,
+      image: Gallery5,
+      delay: "200",
+    },
+    {
+      id: 6,
+      image: Gallery6,
+      delay: "200",
+    },
+    {
+      id: 7,
+      image: Gallery7,
+      delay: "",
+    },
+    {
+      id: 8,
+      image: Gallery8,
+      delay: "200",
+    },
+    {
+      id: 9,
+      image: Gallery9,
       delay: "200",
     },
 
