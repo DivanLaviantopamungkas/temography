@@ -75,6 +75,30 @@ export const navLinks = [
    },
  ];
 
+ export const testimonial = [
+   {
+     id: 1,
+     desc: "Sangat Membantu",
+     video: testi1,
+     name: "Harry",
+     skill: "Wisatawan",
+   },
+   {
+    id: 2,
+    desc: "Rekomendasi temo buat foto foto acara saat pernikahan aku sangat suka",
+    video: testi2,
+    name: "Yanto",
+    skill: "Pengantin",
+  },
+  {
+    id: 3,
+    desc: "Rekomended deh untuk foto wisuda dan lain lain",
+    video: testi3,
+    name: "Rahman",
+    skill: "Mahasiswa",
+  },
+];
+
 // export const dataSwiper = [
 //   {
 //     id: 1,
