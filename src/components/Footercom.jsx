@@ -4,6 +4,28 @@ import { Link } from 'react-router-dom'
 
 
 const Footercom = () => {
+  const phoneNumber = '6289527753269';
+
+  const openInstagram = () => {
+    window.open("https://www.instagram.com/temograph?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", "_blank");
+  }
+
+  const openWhatsApp = () => {
+    const url = `https://api.whatsapp.com/send?phone=${phoneNumber}`;
+    window.open(url, '_blank');
+  };
+
+  const openEmail = () => {
+    const email = 'capturewithtemo@gmail.com';
+    const subject = 'Subjek Email';
+    const body = 'Isi email di sini';
+    
+    window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  }
+  
+  const openTiktok = () => {
+    window.open("https://www.tiktok.com/@temograph?is_from_webapp=1&sender_device=pc")
+  }
   return (
     <div class="footer py-5">
       <Container>
@@ -15,13 +37,13 @@ const Footercom = () => {
           <div className='no mb-1 mt-4'>
             <Link class='text-decoration-none'>
             <i class="fa-brands fa-whatsapp"></i>
-            <p className='mb-0'>+62 822-2641-8035</p>
+            <p className='mb-0' onClick={openWhatsApp}>+62 895-2775-3296</p>
             </Link>
           </div>
           <div className='mail mb-1'>
             <Link class='text-decoration-none'>
              <i className="fa-regular fa-envelope"></i>
-             <p className='mb-0'>capturewithtemo@gmail.com</p> 
+             <p className='mb-0' onClick={openEmail}>capturewithtemo@gmail.com</p> 
             </Link>
           </div>
           </Col>
@@ -37,8 +59,8 @@ const Footercom = () => {
           <Col lg='4' className='mt-lg-0 mt-5'>
           <h5 className='fw-bold mb-3'>Ikuti Kami Untuk Info Menarik</h5>
           <div className="sosial mt-3">
-            <i className="fa-brands fa-instagram"></i>
-            <i className="fa-brands fa-tiktok"></i>
+            <i className="fa-brands fa-instagram" onClick={openInstagram}></i>
+            <i className="fa-brands fa-tiktok" onClick={openTiktok}></i>
           </div>
           </Col>
         </Row>

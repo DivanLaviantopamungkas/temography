@@ -18,9 +18,12 @@ import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 
 const HomePage = () => {
+  const phoneNumber = '6289527753269';
+
   const openWhatsApp = () => {
-    window.open("https://api.whatsapp.com/send?phone=6282226418035", "_blank");
-  };
+    const url = `https://api.whatsapp.com/send?phone=${phoneNumber}`;
+    window.open(url, '_blank');
+  }
 
   return (
     <div className='homepage'>
@@ -81,7 +84,7 @@ const HomePage = () => {
                   whileHover={{ scale: 1.1 }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
                   > 
-                <Col key={price.id} className='text-center'  data-aos="fade-up" data-aos-duration="1000" data-aos-delay={price.delay}>
+                <Col key={price.id} className=''  data-aos="fade-up" data-aos-duration="1000" data-aos-delay={price.delay}>
                 <h5 className='text-center fw-bold mb-5'>{price.title}</h5>
                 <div className="description mb-3 px-5">
                   <p>• {price.description1}</p>
